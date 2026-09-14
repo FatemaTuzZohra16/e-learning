@@ -9,6 +9,10 @@ import Software from './Components/Software/Software'
 import Totc from './Components/Totc/Totc'
 import Classroom from './Components/Classroom/Classroom'
 import Features from './Components/Features/Features'
+import Footer from './Components/Footer/Footer'
+import News from './Components/News/News'
+import Testimonial from './Components/Testimonial/Testimonial'
+import Explore from './Components/Explore/Explore'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +25,10 @@ function App() {
       <Totc />
       <Classroom />
       <Features />
+      <Explore />
+      <Testimonial />
+      <News />
+      <Footer />
     </>
   )
 }
