@@ -4,6 +4,8 @@ import Navbar2 from '../../Navbar/Navbar2'
 import block from '../../../assets/block.png'
 import List from './List'
 import Blog from './Blog'
+import Articles from './Articles'
+import Footer from '../../Footer/Footer'
 
 const BlockPage = () => {
   return (
@@ -28,6 +30,8 @@ const BlockPage = () => {
       </div>
           <List />
           <Blog />
+          <Articles />
+          <Footer />
     </div>
   )
 }
