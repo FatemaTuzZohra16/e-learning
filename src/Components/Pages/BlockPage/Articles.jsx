@@ -8,12 +8,13 @@ import { MdOutlineAccessTime } from "react-icons/md";
 import design from '../../../assets/design.png'
 import logoWemen from '../../../assets/logoWemen.png'
 
-const Articles = () => {
+const Articles = ({title}) => {
+  <Articles title="Marketing Articles" />
   return (
     <div className='pt-[80px] pb-[181px]'>
         <Container>
             <div>
-                <h2 className='font-Poppins font-medium text-[30px] leading-auto tracking-[2%]'>Marketing Articles</h2>
+                <h2 className='font-Poppins font-medium text-[30px] leading-auto tracking-[2%]'>{title}</h2>
             </div>
             <div className="all flex items-center gap-10">
               <div className="main flex justify-between items-center mt-[47px] shadow-xl/20 rounded-3xl">

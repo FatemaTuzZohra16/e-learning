@@ -16,6 +16,7 @@ import Testimonial from './Components/Testimonial/Testimonial'
 import Explore from './Components/Explore/Explore'
 import BlockPage from './Components/Pages/BlockPage/BlockPage'
 import List from './Components/Pages/BlockPage/List'
+import Course from './Components/Pages/Courses/Course'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,10 +40,9 @@ function App() {
           </>
         }
       />
-      <Route
-        path="/block"
-        element={<BlockPage />}
-      />
+      <Route path="/block" element={<BlockPage />} />
+      <Route path="/course" element={<Course />} />
+      {/* <Route path="/course" element={<Category />} /> */}
     </Routes>
   )
 }
